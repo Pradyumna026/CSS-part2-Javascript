@@ -1,0 +1,126 @@
+.container{
+    height:300px;
+    width:600px;
+    background-color:aliceblue;
+    border:2px solid black;
+    display:grid;
+    /* grid-template-rows: 50px 50px 50px 60px;
+    grid-template-columns: auto auto auto; */
+    grid-template-rows: repeat(3,1fr);
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; this is same as upper */
+    grid-template-columns:repeat(3,1fr);
+    /* row-gap: 10px;
+    column-gap:10px; */
+    grid-gap:10px;
+    justify-items: end;
+}
+.item{
+    height:50px;
+    width:100px;
+    background-color:greenyellow;
+    border: 2px solid black;
+    /* margin: 10px auto; */
+    text-align: center;
+}
+.one{
+    justify-self: start;
+    align-self: end;
+    /* grid-column-start:1;
+    grid-column-end : 3; */
+    /* grid-column:1/4; */
+    
+}
+.two{
+    justify-self: center;
+    align-self: center;
+    /* grid-row-start:2;
+    grid-row-end: 4; */
+}
+#prad{
+    height:200px;
+    width:400px;
+    background-color: hotpink;
+
+    /* animation-name: widthAnimation;
+    animation-duration:1s;
+    animation-timing-function: ease-in;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-duration:normal;   */
+     
+    /* By Using ShortHand */
+    animation: colAnimation 4s linear 0s infinite normal;
+}
+@keyframes colAnimation{
+    0%{
+        background-color: yellow;
+        color:black;
+        width:20px;
+    }
+    25%{
+        background-color: red;
+        color:white;
+        width:40px;
+    }
+    50%{
+        background-color: aquamarine;
+        color:black;
+        width:60px;
+    }
+    100%{
+        background-color: green;
+        color:aliceblue;
+        width:200px;
+    }
+}
+@keyframes backgroundColor{
+    from{
+        background-color: pink;
+    }
+    to{
+        background-color: black;
+        color:aliceblue;
+    }
+}
+
+@keyframes fontSize{
+    form{
+       font-size: 20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
+@keyframes widthAnimation{
+    from{
+        width:20px;
+    }
+    to{
+        width:200px;
+    }
+}
+/* ---------------------------------Media Queries---------------------- */
+h1{
+    background-color: aqua;
+    text-align: center;
+    color:black;
+    border: 1px solid black;
+}
+@media (min-width:300px)and(max-width:500px){
+    h1{
+        background-color: rgb(244, 137, 6);
+        color:black;
+    }
+}
+@media (width:400px){
+    h1{
+        background-color: red;
+        color:white;
+    }
+    .class{
+        background-color:aqua;
+        border:1px solid black;
+        height:100px;
+        width:100px;
+    }
+}

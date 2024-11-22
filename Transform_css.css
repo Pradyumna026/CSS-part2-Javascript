@@ -1,0 +1,68 @@
+/* span{
+    /* display:block; 
+    border: 2px solid black;
+    background-color: aqua;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    margin:10px
+} */
+/* div{
+    height:200px;
+    width: 200px;
+    background-color:aqua;
+    margin:5px;
+    border:2px solid black;
+    /* display:inline; */
+    /* display:inline-block; 
+} */
+/* #outer{
+    height:400px;
+    width:400px;
+    margin:10px;
+    /* border:2px solid black; */
+  /*  background-color:greenyellow;
+}
+#inner{
+    height: 100px;
+    width:100px;
+    background-color: blue;
+    margin:50%;
+} */
+/* ---------------------------Div-Div------------------------------------- */
+/* #outer{
+    height:400px;
+    width:400px;
+    background-color: lightskyblue;
+    font-size:20px;
+}
+#inner{
+    height:100px;
+    width:100px;
+    background-color:hotpink;
+    font-size:0.5em;
+} */
+/* -------------------------------Button property------------------ */
+/* button{
+    font-size: 50px;
+    border-radius: 15px;
+    padding-left: 1em;
+    padding-right:1em;
+} */
+/* ----------Snowball Efect of Em (Drawback) */
+/* div{
+    font-size:2em;
+} */
+/* ---------------------------Alpha value-------------- */
+.my{
+    height:200px;
+    width:200px;
+    background-color: rgba(255, 0, 0, 0.409);
+    
+}
+.sec{
+    height:200px;
+    width:200px;
+    background-color:  hotpink;
+    opacity: 0.5;
+}

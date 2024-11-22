@@ -1,0 +1,15 @@
+.box{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    margin:10px;
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: blueviolet;
+}
+.three{
+    background-color: aquamarine;
+}

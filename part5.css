@@ -1,0 +1,51 @@
+.container{
+    height:500px;
+    width:80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+    /* align-items: center; */
+    /* align-content: space-around; */
+    /* align-items: flex-end; */
+    /* align-content: flex-start; */
+    /* flex-wrap:wrap; */
+    /* align-items: baseline; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: nowrap; this is the default value in any ide */
+}  
+#org{
+    /* align-self: flex-end; */
+    /* flex-grow:1; */
+    /* max-width: 200px; */
+    flex-shrink: 2;
+} 
+#blue{
+    /* flex-basis: 500px; */
+    /* flex-grow: 2; */
+    /* min-width: 400px; */
+}
+h1{
+    text-align:center;
+}
+.container div{
+    height:100px;
+    width:300px;
+    color:white;
+    text-align: center;
+    font-size: 2em;
+}

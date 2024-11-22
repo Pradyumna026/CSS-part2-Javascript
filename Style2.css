@@ -1,0 +1,39 @@
+/* *{
+    font-family: 'Courier New';
+}
+h1{
+    color:#1b74e4;
+}
+#searchbtn{
+    background-color: black;
+    color:white;
+}
+.userbtn{
+    background-color: aqua;
+} */
+/* Inheritance in CSS */
+
+
+
+/* Practice Question of CSS Part 3 */
+div.fis{
+    height:200px;
+    width:70px;
+    border:10px double black;
+}
+#prad{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}

@@ -1,0 +1,128 @@
+ /* Transition in css */
+ /* div{
+    height:100px;
+    width:100px;
+    background-color:aquamarine;
+    margin-top: 10px;
+    margin:0 auto;
+    transition:margin-top 2s ease-in 0.2s; */
+    /* transition-duration: 1s;
+    transition-delay: 1s; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: steps; */
+/* }
+div:hover{
+    margin-top:400px;
+    background-color: pink; */
+    /* background-color: black; */
+    /* border-radius: 10% 100px/120px; */
+/* }  */
+/* CLass problem*/
+/*iframe{
+    border: 2px solid black;
+    margin-left: 250px;
+    border-radius: 15px;
+}*/
+/* ------------------------------------------------------------------ */
+/* Transform in CSS */
+/* section{
+    margin-top: 100px;
+}
+div{
+    height:50px;
+    width:200px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin :10px auto;
+
+}
+div:nth-of-type(2n){
+    background-color:#f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    /* transform:scale(0.5); */
+    /* transform: scale(0.5, 2);
+}
+#three{
+    transform:translate(-100px,-200px);
+}
+#four{
+    transform:skew(30deg);
+}
+#five{
+    transform:rotate(30deg) translate(100px,100px) skew(20deg) scale(2);
+} */ 
+/* -------------------------------------------------------------------------- */
+/* Box - Shadow */
+/* div{
+    height:50px;
+    width:200px;
+    text-align: center;
+    background-color: #7aa874;
+    margin :10px auto;
+    box-shadow: 5px 5px 15px black;
+} */
+/* BAckground Image */
+/* ----------------------------------------------------------------- */
+/* div{
+    height:900px;
+    width:1430px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("4304217.jpg"); */
+    /* background-size:contain; */
+    /* background-size:cover; */
+    /* background-size:auto; */
+/* } */
+/* Position property */
+div{
+    height:100px;
+    width:100px;
+    background-color: green;
+    border:3px solid black;
+    text-align: center;
+    margin:20px;
+    display:inline-block;
+}
+/* #sec{
+    background-color: yellow;
+    position: static;
+    top:100px;
+    left:100px;
+}
+#relative{
+    background-color: yellowgreen;
+    position: relative;
+    top:100px;
+    left:100px; 
+}
+#absolute{
+    background-color: red;
+    position: absolute;
+    top:100px;
+    left:100px;
+}
+#fixed{
+    background-color: pink;
+    position: fixed;
+    top:100px;
+    left:100px;
+} */
+
+#sticky{
+    background-color: aquamarine;
+    position: sticky;
+    top:20px;
+   
+}
+
+
+
+
