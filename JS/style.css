@@ -1,0 +1,42 @@
+/* img{
+    height :400px;
+
+}
+#xyz{
+    display: inline;
+    height : 200px;
+    width : 400px;
+    
+}
+.green{
+    color : green;
+    text-decoration: underline red wavy;
+} */
+
+/*.red{
+    color:red;
+}
+.blue{
+    color: blue;
+}
+.box{
+    border : 2px solid black;
+    background-color: pink;
+}*/
+
+/* ---------------------------------------------------------------------------------------------- */
+body{
+    text-align: center;
+}
+div{
+    height:100px;
+    width:600px;
+    border: 1px solid black;
+    margin :auto;
+}
+.box{
+    height:200px;
+    width:200px;
+    background-color: red;
+    border:1px solid blue;
+}
