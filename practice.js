@@ -37,3 +37,5 @@ let id = setInterval(()=>{
     console.log("Koi bolti re");
 },5000)
 console.log(id);
+
+// 
